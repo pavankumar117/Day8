@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Quote Details</title>
+      <link rel="stylesheet" type="text/css" href="hyphen.css">
+      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+      <style>
+        #quote {
+          margin-left :175;
+        }
+        #input {
+          width : 300;
+        }
+        .label {
+          background-color: #FFE4C4;
+        }
+        i {
+          margin-left: 275;
+        }
+
+        #drop {
+          margin-left: 33;
+          width : 300;
+        }
+        h3 {
+          width : 450;
+          color : #A9A9A9;
+          font-style: italic;
+          heigth : 450;
+        }
+      </style>
+  </head>
+  <body>
+    <center><h3>Quote Details<h3></center>
+    <div class="grid">
+      <div id = 'quote' class="grid__item grid__item--6">
+        <input class = 'input'  id = 'input' type = 'text'  placeholder = 'Enter Quote Name' />
+      </div>
+      <div class="grid__item grid__item--1">
+        <input class = 'input' id = 'input' type = 'text'  placeholder = 'Enter Customer Name*' />
+      </div>
+    </div>
+
+
+    <div class="grid">
+      <div id = 'quote' class="grid__item grid__item--6">
+        <textarea class="label" id = 'input'  placeholder = 'Deliver Goods to*'></textarea>
+      </div>
+      <div class="grid__item grid__item--1">
+        <textarea class="label" id = 'input'  placeholder = 'Billing to*' /></textarea>
+      </div>
+    </div>
+
+
+    <div class="grid">
+      <div id = 'quote' class="grid__item grid__item--4">
+        Address verified:<i class="fa fa-toggle-on"></i>
+      </div>
+      <div id = 'quote' class="grid__item grid__item--2">
+        <select class="input" id = 'drop'>
+          <option value = '1'>Order Type</option>
+          <option value = '2'>Amsterdam</option>
+          <option value = '3'>United States</option>
+          <option value = '4'>India</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="grid__item grid__item--6">
+        &nbsp
+      </div>
+        &nbsp
+      <div class="grid__item grid__item--6">
+    </div>
+
+
+    <div class="grid">
+      <div class="grid__item grid__item--12">
+        <a href = 'Additionalinfo.html' target = 'main'>
+          <button id = 'butto' class="btn btn--success btn--small btn--round">Save & Next</button>
+        </a>
+      </div>
+
+
+    </div>
+  </body>
+</html>
